@@ -1,15 +1,12 @@
 import './bootstrap'
 import Vue from 'vue'
-import Vuetify from 'vuetify'
-import router from '@/js/routes'
 import App from '@/js/App'
-import 'vuetify/dist/vuetify.min.css'
+import router from '@/js/routes'
+import vuetify from './vuetify'
  
-Vue.use(Vuetify);
-
 new Vue({
  el: '#app',
- vuetify: new Vuetify({}),
+ vuetify: vuetify,
  router: router,
  render: h => h(App)
 });
