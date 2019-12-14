@@ -1,5 +1,5 @@
 <html>
-    <head>WordUnpressed</head>
+    <head></head>
     <body>
         <div class="container" id="app">
             @yield('content')
